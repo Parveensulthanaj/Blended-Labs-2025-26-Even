@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: PARVEEN SULTHANA J
+* **Register Number**: 212224040233
+* **Date of Submission**: 13-02-2026
 
 ---
 
@@ -84,36 +84,34 @@ Install and start a web server (Apache HTTPD) on the EC2 instance using user dat
 Create a simple HTML page and verify that it can be accessed from a web browser using the public IP address of the instance.---
 
 ## Workflow (Student Explanation)
+1.Created a VPC I went to the VPC dashboard in AWS and created a new VPC with the CIDR block 10.0.0.0/16. I gave it a meaningful name so I could easily identify it later.
 
-(Write the steps you followed in your own words)
+2.Created a Public Subnet Inside the VPC, I created a new subnet with the CIDR block 10.0.1.0/24. I enabled the option to auto-assign public IPv4 addresses so that any instance launched in this subnet would automatically receive a public IP.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+3.Created and Attached an Internet Gateway I created a new Internet Gateway and attached it to my VPC. This allows resources inside the VPC to communicate with the internet.
 
----
+4.Configured Route Table I created a new route table and added a default route 0.0.0.0/0 pointing to the Internet Gateway. Then I associated this route table with the public subnet to allow internet access.
 
-## Output Screenshots (Attach 3)
+5.Created a Security Group I created a security group and added inbound rules to allow: SSH (Port 22) for remote access HTTP (Port 80) to allow web traffic.
+
+6.Launched an EC2 Instance I launched a new EC2 instance using the Amazon Linux 2 AMI and selected the t2.micro instance type. I selected the public subnet, attached the security group I created, and selected my key pair for SSH access.
+
+7.Configured the Web Server.
+
+## Output Screenshots (Attach 3):
 
 ### Screenshot 1: VPC and Subnet Details
+<img width="1920" height="1080" alt="labtask2 1" src="https://github.com/user-attachments/assets/92e62341-268b-4409-8e6f-6fd328f95872" />
 
-(Insert Screenshot Here)
 
----
 
 ### Screenshot 2: EC2 Instance Running
+<img width="1920" height="1080" alt="labtask2 2" src="https://github.com/user-attachments/assets/1c439d22-5bab-4948-b4ca-1dec4ed010e9" />
 
-(Insert Screenshot Here)
-
----
 
 ### Screenshot 3: Web Server Output in Browser
+<img width="1920" height="1080" alt="labtask2 3" src="https://github.com/user-attachments/assets/5305691f-cbfa-4350-a64b-64be26f7bd79" />
 
-(Insert Screenshot Here)
-
----
 
 ## Result 
 
