@@ -71,7 +71,17 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 ## Workflow (To be filled by Student)
 
-Describe step-by-step how you performed this experiment in your own words.
+1.Launch multiple servers.
+
+2.Deploy the application on each server.
+
+3.Create a load balancer.
+
+4.Add servers to the load balancer.
+
+5.Configure auto-scaling.
+
+6.Test load distribution.
 
 ---
 
