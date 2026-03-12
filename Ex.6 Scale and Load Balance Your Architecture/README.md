@@ -3,7 +3,9 @@
 ## Title
 
 Scale and Load Balance Your Architecture
-Author : your name   Reg no : yours   Date :
+Author : PARVEEN SULTHANA J
+Reg no : 212224040233
+Date : 12-03-2026
 
 ---
 
@@ -72,6 +74,16 @@ Describe step-by-step how you performed this experiment in your own words.
 
 ## Output Screenshots 
 
+<img width="1920" height="1080" alt="Screenshot (469)" src="https://github.com/user-attachments/assets/71de569d-bcbb-4c1c-ab86-3d087e8a36ff" />
+<img width="1920" height="1080" alt="Screenshot (470)" src="https://github.com/user-attachments/assets/134b83c5-2eb4-4594-b593-2389a4df99a7" />
+<img width="1920" height="1080" alt="Screenshot (471)" src="https://github.com/user-attachments/assets/e4339899-2f4f-4f2e-81c7-a98f2e7eafba" />
+<img width="1920" height="1080" alt="Screenshot (472)" src="https://github.com/user-attachments/assets/f151406b-21fc-4ba3-9727-1e53d25365f7" />
+<img width="1920" height="1080" alt="Screenshot (473)" src="https://github.com/user-attachments/assets/386c36ba-be84-46b8-84c8-c749cdcbe198" />
+<img width="1920" height="1080" alt="Screenshot (474)" src="https://github.com/user-attachments/assets/99b1407b-0564-4bcb-a519-32b851d95759" />
+<img width="1920" height="1080" alt="Screenshot (475)" src="https://github.com/user-attachments/assets/4982f49a-090e-467f-83bf-495bc5c1cf62" />
+<img width="1920" height="1080" alt="Screenshot (476)" src="https://github.com/user-attachments/assets/173a5a69-5026-43e6-b93a-4cb774a465a7" />
+<img width="1920" height="1080" alt="Screenshot (477)" src="https://github.com/user-attachments/assets/9625f2ec-a9ff-4e24-8236-fb5716a5e1d6" />
+<img width="1920" height="1080" alt="Screenshot (481)" src="https://github.com/user-attachments/assets/237759b5-1fe6-48cf-952a-7d00303f91a0" />
 
 ---
 
