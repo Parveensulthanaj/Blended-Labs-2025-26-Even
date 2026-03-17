@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: PARVEEN SULTHANA J
+* **Register Number**: 212224040233
+* **Date of Submission**: 18-03-2026
 
 ---
 
@@ -82,33 +82,45 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1.Launched an Amazon Linux 2 EC2 instance with appropriate instance type, key pair, and security group.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2.Configured the security group to allow SSH (22) and database port (MySQL 3306/PostgreSQL 5432) access.
 
+3.Connected to the EC2 instance via SSH from my local machine.
+
+4.Installed a database server (MySQL/MariaDB/PostgreSQL) using package manager commands.
+
+5.Started the database service, set root password, and configured user privileges.
+
+6.Created a sample database and table, and inserted test records.
+
+Verified database connectivity by executing basic SQL queries locally and remotely.
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1920" height="1080" alt="cc6 1" src="https://github.com/user-attachments/assets/e125d111-a95f-459b-8a37-6e1e8e1585b3" />
+
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1920" height="1080" alt="cc6 2" src="https://github.com/user-attachments/assets/1b74bcb1-9f39-4329-a9f3-a13eee6947e0" />
+<img width="1920" height="1080" alt="cc6 3" src="https://github.com/user-attachments/assets/1235cd71-3de9-4047-a7b7-7c467e436f0e" />
+<img width="1920" height="1080" alt="cc6 4" src="https://github.com/user-attachments/assets/faf3c5ef-25ea-4de9-994d-f3869c7d3898" />
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+
+<img width="1920" height="1080" alt="cc6 5" src="https://github.com/user-attachments/assets/e9581683-6051-4321-a0df-ff5808080a36" />
+
+<img width="1920" height="1080" alt="cc6 6" src="https://github.com/user-attachments/assets/b453bbc8-4193-40f5-b6e0-aa3f1a1182bb" />
+
 
 ---
 
